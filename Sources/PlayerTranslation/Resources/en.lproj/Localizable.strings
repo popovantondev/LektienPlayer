@@ -1,0 +1,10 @@
+"busy" = "This translation is already running in another window or process.";
+"corruptCache" = "A saved section failed validation. Work stopped to avoid automatically repeating the request.";
+"invalidInput" = "German subtitles need text, unique numbers and valid timings. A supported model is also required.";
+"invalidResponse" = "The response is invalid or incomplete. This section was not accepted.";
+"missingCLI" = "Codex CLI was not found. This preview requires an installed copy of Codex.";
+"quota" = "The Codex limit has been reached. Finished sections are saved. Choose Translate after the limit resets.";
+"service" = "Codex could not finish the translation. Check the connection and ChatGPT sign-in. Finished sections are saved.";
+"stopped" = "Translation stopped. Finished sections are saved. Choose Translate to continue.";
+"timeout" = "The service did not finish in time. Finished sections are saved; you can continue.";
+"updateCLI" = "This model requires a newer Codex version. Update ChatGPT/Codex and continue. Finished sections are saved.";

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "name": "Lektien Player",
+  "repo": "LektienPlayer",
+  "version": "development",
+  "platform": "macOS 15+ · Apple Silicon",
+  "status": "source",
+  "published": true,
+  "source_url": "https://github.com/popovantondev/LektienPlayer",
+  "tag": null,
+  "release_url": null,
+  "assets": [],
+  "languages": [
+    "ru",
+    "de",
+    "en"
+  ],
+  "downloads": [],
+  "checksums": [],
+  "help_url": "https://popovantondev.github.io/LektienPlayer/Guide-{lang}.html",
+  "feedback_url": "https://github.com/popovantondev/LektienPlayer/issues/new",
+  "readmes": {
+    "en": [
+      "README.md"
+    ],
+    "ru": [
+      "README.ru.md"
+    ],
+    "de": [
+      "README.de.md"
+    ]
+  },
+  "guides": {
+    "ru": "Guide-ru.html",
+    "de": "Guide-de.html",
+    "en": "Guide-en.html"
+  },
+  "navigation": {
+    "ru": {
+      "website": "https://popovantondev.github.io/LektienPlayer/index-ru.html",
+      "guide": "https://popovantondev.github.io/LektienPlayer/Guide-ru.html"
+    },
+    "de": {
+      "website": "https://popovantondev.github.io/LektienPlayer/index-de.html",
+      "guide": "https://popovantondev.github.io/LektienPlayer/Guide-de.html"
+    },
+    "en": {
+      "website": "https://popovantondev.github.io/LektienPlayer/index-en.html",
+      "guide": "https://popovantondev.github.io/LektienPlayer/Guide-en.html"
+    }
+  },
+  "description": {
+    "ru": "Плеер лекций для Mac: локальное распознавание немецкой речи, перевод и русская озвучка Kseniya по частям. Telegram и просмотр в домашней сети.",
+    "de": "Vorlesungsplayer für den Mac: lokale Erkennung deutscher Sprache, Übersetzung und russische Kseniya-Vertonung in Abschnitten. Telegram und Wiedergabe im Heimnetz.",
+    "en": "Lecture player for Mac: local German speech recognition, translation and Russian Kseniya voice-over in sections. Telegram streaming and home-network viewing."
+  },
+  "requirements": {
+    "ru": "Только исходники, готового установщика нет. macOS 15+, Apple Silicon, Xcode 16.4+ / Swift 6.1. Для полной работы нужны отдельный Runtime, Codex CLI с входом ChatGPT и Python/Torch/Silero Kseniya. Установка на чистый Mac пока не проверена.",
+    "de": "Nur Quellcode, kein fertiges Installationspaket. macOS 15+, Apple Silicon, Xcode 16.4+ / Swift 6.1. Für alle Funktionen sind ein separates Runtime-Paket, Codex CLI mit ChatGPT-Anmeldung sowie Python/Torch/Silero Kseniya erforderlich. Die Installation auf einem frisch eingerichteten Mac ist noch nicht geprüft.",
+    "en": "Source only; no ready-to-install package. macOS 15+, Apple Silicon, Xcode 16.4+ / Swift 6.1. Full functionality needs a separate Runtime, Codex CLI signed in to ChatGPT, and Python/Torch/Silero Kseniya. Installation on a clean Mac is not yet verified."
+  },
+  "start": {
+    "ru": "Прочитайте руководство и BUILD.ru.md. Соберите исходники через swift build; полная .app требует подготовленных компонентов Runtime. Откройте видео, выберите субтитры или немецкую звуковую дорожку и запустите перевод.",
+    "de": "Zuerst Anleitung und BUILD.de.md lesen. Quellcode mit swift build kompilieren; eine vollständige .app benötigt vorbereitete Runtime-Komponenten. Video öffnen, Untertitel oder eine deutsche Tonspur wählen und Übersetzung starten.",
+    "en": "Read the guide and BUILD.en.md. Compile using swift build; a complete .app needs prepared Runtime components. Open a video, choose subtitles or a German audio track, then start translation."
+  }
+}

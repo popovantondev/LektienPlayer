@@ -1,0 +1,8 @@
+"busy" = "This speech preparation is already running in another window.";
+"failed" = "Speech preparation failed while processing text, loading the voice or handling audio. Finished phrases are saved.";
+"invalidAudio" = "The audio file failed integrity validation.";
+"missingFFmpeg" = "FFmpeg was not found. It is needed to adjust speech timing.";
+"missingRuntime" = "The Silero runtime was not found. This preview uses the installation from SRT Озвучка 2.";
+"stopped" = "Speech preparation stopped. Finished phrases are saved; you can continue.";
+"unsupportedVoice" = "This version supports only Silero Kseniya.";
+"pronunciation.invalidLine" = "Check line %d: word => pronunciation. Use one + before the stressed vowel per word; do not repeat source entries.";

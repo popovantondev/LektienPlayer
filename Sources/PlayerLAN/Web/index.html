@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lektien Player</title><link rel="stylesheet" href="/player.css"><script src="/prepared-speech.js" defer></script><script src="/playback.js" defer></script><script src="/adaptive-video.js" defer></script><script src="/player.js" defer></script></head>
+<body><header><strong>Lektien Player</strong><select id="language" aria-label="Language"><option value="de">Deutsch</option><option value="ru">Русский</option><option value="en">English</option></select></header>
+<main><form id="login"><h1 data-i18n="connect"></h1><p data-i18n="codeHelp"></p><label><span data-i18n="code"></span><input id="code" autocomplete="off" required></label><button data-i18n="connect"></button></form>
+<section id="viewer" hidden><div class="toolbar"><label class="library"><span data-i18n="library"></span><select id="library"></select></label></div>
+<div class="toolbar"><button id="prepare" data-i18n="prepare"></button><button id="stop" data-i18n="stop" hidden></button></div>
+<div id="sources" class="toolbar" hidden><label><span data-i18n="source"></span><select id="source"></select></label><button id="start" data-i18n="start"></button><p class="note" data-i18n="prepareHelp"></p></div>
+<p id="preparationStatus" role="status"></p><progress id="prepared" max="1" value="0" hidden></progress>
+<h1 id="title"></h1><video id="video" controls playsinline preload="metadata"></video><audio id="voice" preload="metadata"></audio><p id="playbackStatus" role="status"></p><p id="deviceStatus"></p>
+<div class="toolbar"><button id="play" data-i18n="play"></button><label><span data-i18n="sound"></span><select id="sound"><option value="video" data-i18n="videoSound"></option><option value="ru" data-i18n="russian"></option></select></label>
+<label><span data-i18n="subtitles"></span><select id="subtitles"><option value="off" data-i18n="off"></option><option value="ru">Русский</option><option value="de">Deutsch</option></select></label>
+<label><span data-i18n="volume"></span><input id="volume" type="range" min="0" max="1" step="0.05" value="1"></label></div>
+<p class="note" data-i18n="scope"></p></section><p id="status" role="status" aria-live="polite"></p></main></body></html>

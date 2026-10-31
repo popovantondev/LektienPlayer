@@ -1,0 +1,8 @@
+"busy" = "Diese Vertonung läuft bereits in einem anderen Fenster.";
+"failed" = "Vertonung fehlgeschlagen. Text, Stimme oder Audio konnten nicht verarbeitet werden. Fertige Sätze sind gespeichert.";
+"invalidAudio" = "Die Audiodatei ist beschädigt oder ungültig.";
+"missingFFmpeg" = "FFmpeg zum Anpassen des Sprechtempos fehlt.";
+"missingRuntime" = "Die Silero-Umgebung fehlt. Diese Vorschau verwendet die Installation von SRT Озвучка 2.";
+"stopped" = "Vertonung angehalten. Fertige Sätze sind gespeichert; du kannst fortsetzen.";
+"unsupportedVoice" = "Diese Version unterstützt nur Silero Kseniya.";
+"pronunciation.invalidLine" = "Zeile %d prüfen: Wort => Aussprache. Pro Wort ein + vor dem betonten Vokal; Originaleinträge dürfen nicht doppelt vorkommen.";

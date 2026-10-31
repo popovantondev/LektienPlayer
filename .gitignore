@@ -1,0 +1,11 @@
+.build/
+.swiftpm/
+.ai-dev/
+Runtime/
+previews/
+.lektien/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+*.session

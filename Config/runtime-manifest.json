@@ -1,0 +1,90 @@
+{
+  "bin/ffmpeg": {
+    "size": 22187688,
+    "sha256": "23db8e978b2a1516ac410d9144be3c78d69ea89e35818415f4e85ec92c05cfc4"
+  },
+  "bin/ffprobe": {
+    "size": 21996136,
+    "sha256": "2a2066fc00bbd538688aac5b94c4272f58c4308d45e77b291175bf7952fe660e"
+  },
+  "bin/whisper-cli": {
+    "size": 6570072,
+    "sha256": "278e45caa50d4dc2e92d04e7fa9c19d3439350a7bd0c6bc40cc91b41d5cc72a5"
+  },
+  "models/ggml-large.bin": {
+    "size": 3095033483,
+    "sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2"
+  },
+  "models/ggml-silero-v6.2.0.bin": {
+    "size": 885098,
+    "sha256": "2aa269b785eeb53a82983a20501ddf7c1d9c48e33ab63a41391ac6c9f7fb6987"
+  },
+  "Licenses/COPYING.LGPLv2.1": {
+    "size": 26517,
+    "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+  },
+  "Licenses/LAME-COPYING": {
+    "size": 25281,
+    "sha256": "e64f9c5a18f56828c10a575df13ade641aa3af4512a7afe6c411256943b57aaf"
+  },
+  "Licenses/LAME-LICENSE": {
+    "size": 503,
+    "sha256": "5c1f8d44f1eacbea3e1c31ff6ee11a4e1690ccbed4ee4af16de3b6eb61dc69a8"
+  },
+  "Licenses/NOTICE.md": {
+    "size": 2351,
+    "sha256": "3571e86fb53d1bb93c2652980e9bb07a29720e3cd117ab7dea3685b230a9e5dd"
+  },
+  "Licenses/ffmpeg-9.0.1.tar.xz": {
+    "size": 12036420,
+    "sha256": "cf38e0e28c7e5605942c4a77755349b0145804a397af37eb1fb4c77cb237f635"
+  },
+  "Licenses/lame-4.0.tar.gz": {
+    "size": 1496810,
+    "sha256": "3df5124d5ad3a98312ffd7ba6a9b36230e4f8a3e66d3ce0f425e336c32d216eb"
+  },
+  "Licenses/pkgconf-2.5.1.tar.xz": {
+    "size": 328064,
+    "sha256": "cd05c9589b9f86ecf044c10a2269822bc9eb001eced2582cfffd658b0a50c243"
+  },
+  "Licenses/dependencies.json": {
+    "size": 562,
+    "sha256": "b3a82e2ae472a72a654fe8ff460add0e306a9326233bb719e67ee071ece442b8"
+  },
+  "Licenses/build-ffmpeg.sh": {
+    "size": 2172,
+    "sha256": "a5fbf39fade9b47b208883e85f24b8e8c20d5e89fd1fc332f2fb0d81b6449d66"
+  },
+  "Licenses/WHISPER-CPP-LICENSE": {
+    "size": 1078,
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+  },
+  "Licenses/WHISPER-MODEL-LICENSE": {
+    "size": 1063,
+    "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+  },
+  "Licenses/SILERO-VAD-LICENSE": {
+    "size": 1075,
+    "sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b"
+  },
+  "lib/libtdjson.dylib": {
+    "size": 23993216,
+    "sha256": "ad3be353d1df417a513a14110e6bb2878f9c4dfeae7a213352291d8e911f7d2b"
+  },
+  "lib/libssl.3.dylib": {
+    "size": 888320,
+    "sha256": "f5db2f113fa1802bf111d9c4606ea12475ba5df205ac929693014febd4c821a8"
+  },
+  "lib/libcrypto.3.dylib": {
+    "size": 4870816,
+    "sha256": "dcf2194b80d9ab923b17156240f9c0cb4a666218ac8ad631eaf3a54cf79c7d66"
+  },
+  "Licenses/TDLib/LICENSE_1_0.txt": {
+    "size": 1338,
+    "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+  },
+  "Licenses/OPENSSL-LICENSE.txt": {
+    "size": 10175,
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+  }
+}

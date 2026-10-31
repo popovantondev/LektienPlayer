@@ -1,0 +1,10 @@
+"busy" = "Diese Übersetzung läuft bereits in einem anderen Fenster oder Prozess.";
+"corruptCache" = "Ein gespeicherter Abschnitt ist ungültig. Die Arbeit wurde angehalten, damit die Anfrage nicht automatisch wiederholt wird.";
+"invalidInput" = "Benötigt werden deutsche Untertitel mit Text, eindeutigen Nummern und gültigen Zeiten sowie ein unterstütztes Modell.";
+"invalidResponse" = "Die Antwort ist ungültig oder unvollständig. Dieser Abschnitt wurde nicht übernommen.";
+"missingCLI" = "Codex CLI fehlt. Für diese Vorschau muss Codex installiert sein.";
+"quota" = "Das Codex-Limit ist erreicht. Fertige Abschnitte sind gespeichert. Nach der Rücksetzung mit „Übersetzen“ fortsetzen.";
+"service" = "Codex konnte die Übersetzung nicht abschließen. Verbindung und ChatGPT-Anmeldung prüfen. Fertige Abschnitte sind gespeichert.";
+"stopped" = "Übersetzung angehalten. Fertige Abschnitte sind gespeichert. Mit „Übersetzen“ fortsetzen.";
+"timeout" = "Der Dienst hat nicht rechtzeitig geantwortet. Fertige Abschnitte sind gespeichert; du kannst fortsetzen.";
+"updateCLI" = "Dieses Modell benötigt eine neuere Codex-Version. ChatGPT/Codex aktualisieren und fortsetzen. Fertige Abschnitte sind gespeichert.";
