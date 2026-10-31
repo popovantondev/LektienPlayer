@@ -1,0 +1,16 @@
+"library.noContents" = "The system did not return the folder contents.";
+"library.notDirectory" = "Choose a local folder containing lectures.";
+"library.unreadable" = "Could not read the lecture folder: %@";
+"preparation.invalidLimits" = "The translation section size is invalid.";
+"subtitle.block" = "Subtitle block %d is invalid.";
+"subtitle.order" = "Subtitle cues are out of order.";
+"subtitle.timestamp" = "The timestamp in subtitle block %d is invalid.";
+"subtitle.unreadable" = "The subtitle file uses an unsupported text encoding.";
+"translation.invalidText" = "The response contains invalid text for cue %d.";
+"translation.mismatchedIDs" = "The response has missing, duplicate or extra cue IDs.";
+
+"media.unavailable" = "Local media or recognition components are missing. Use the complete application package.";
+"media.failed" = "Local processing failed. Check the selected track and recording.";
+"media.stopped" = "Processing stopped.";
+"media.invalidOutput" = "The result contains invalid text or timing and was not published.";
+"media.busy" = "This recording is already being processed locally.";

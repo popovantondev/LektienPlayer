@@ -1,0 +1,5 @@
+# Architektur
+
+PlayerCore enthält unabhängige Modelle. PlayerMedia untersucht und extrahiert Spuren. PlayerTranscription erkennt deutsche Abschnitte mit Randkontext. PlayerTranslation bereitet Text vor und prüft Antworten. PlayerSpeech normalisiert Aussprache und erzeugt zeitlich zugeordnete Sprachstücke. PlayerExport veröffentlicht neue Ergebnisordner atomar. PlayerLAN stellt eine erlaubte Bibliothek und vorbereitete Sprache für einen Zuschauer bereit. Die SwiftUI-App koordiniert Wiedergabe, Telegram, Einstellungen und Abbruch. Fertige Teile werden wiederverwendet; Sprünge priorisieren die neue Position und verwerfen veraltete Ergebnisse.
+
+Erkennung und Synthese laufen lokal. Für die Übersetzung wird vorbereiteter Untertiteltext an den angemeldeten Dienst übermittelt. Telegram verwendet die eigene autorisierte Sitzung. Zugangsdaten verbleiben separat auf dem Mac. Quelldateien bleiben erhalten; der Cache liegt in .lektien. Die ausgewählte Bibliothek nur im vertrauenswürdigen Heimnetz freigeben und den Port nicht ins Internet weiterleiten.

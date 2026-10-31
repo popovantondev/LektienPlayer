@@ -1,0 +1,16 @@
+"library.noContents" = "Das System hat keinen Ordnerinhalt zurückgegeben.";
+"library.notDirectory" = "Wähle einen lokalen Ordner mit Vorträgen.";
+"library.unreadable" = "Der Vortragsordner konnte nicht gelesen werden: %@";
+"preparation.invalidLimits" = "Die Abschnittsgröße für die Übersetzung ist ungültig.";
+"subtitle.block" = "Untertitelblock %d ist ungültig.";
+"subtitle.order" = "Die Untertitel sind nicht zeitlich geordnet.";
+"subtitle.timestamp" = "Die Zeitangabe in Untertitelblock %d ist ungültig.";
+"subtitle.unreadable" = "Die Untertiteldatei hat eine nicht unterstützte Textkodierung.";
+"translation.invalidText" = "Die Antwort enthält ungültigen Text für Untertitel %d.";
+"translation.mismatchedIDs" = "In der Antwort fehlen Untertitelnummern oder sie sind doppelt bzw. überzählig.";
+
+"media.unavailable" = "Die lokalen Medien- oder Spracherkennungskomponenten fehlen. Bitte den vollständigen Programmordner verwenden.";
+"media.failed" = "Die lokale Verarbeitung ist fehlgeschlagen. Prüfe die gewählte Spur und die Aufnahme.";
+"media.stopped" = "Verarbeitung angehalten.";
+"media.invalidOutput" = "Das Ergebnis enthält ungültigen Text oder Zeitangaben und wurde nicht veröffentlicht.";
+"media.busy" = "Diese Aufnahme wird bereits lokal verarbeitet.";
