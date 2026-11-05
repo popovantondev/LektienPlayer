@@ -1,4 +1,4 @@
-# Lektien Player · Source only development
+# Lektien Player · Source only · in development
 
 ## Changes
 

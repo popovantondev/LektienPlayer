@@ -1,0 +1,7 @@
+Assets/kit/* text eol=lf
+*.html text eol=lf
+README*.md text eol=lf
+site.css text eol=lf
+tools/*.py text eol=lf
+public-release.json text eol=lf
+docs/*.md text eol=lf

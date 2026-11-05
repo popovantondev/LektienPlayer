@@ -1,41 +1,43 @@
 # Lektien Player
 
 <!-- public-release:start -->
-Lecture player for Mac: local German speech recognition, translation and Russian Kseniya voice-over in sections. Telegram streaming and home-network viewing.
+Vorlesungsplayer für den Mac: lokale Erkennung deutscher Sprache, Übersetzung und russische Kseniya-Vertonung in Abschnitten. Telegram und Wiedergabe im Heimnetz.
 
-**macOS 15+ · Apple Silicon · Source only development**
+**macOS 15+ · Apple Silicon · Nur Quellcode · in Entwicklung**
 
-**[Source](https://github.com/popovantondev/LektienPlayer)** · **[About the app](https://popovantondev.github.io/LektienPlayer/index-en.html)** · **[User guide](https://popovantondev.github.io/LektienPlayer/Guide-en.html)** · **[Report a problem](https://github.com/popovantondev/LektienPlayer/issues/new)**
+**[Quellcode](https://github.com/popovantondev/LektienPlayer)** · **[Über die App](https://popovantondev.github.io/LektienPlayer/index.html)** · **[Anleitung](https://popovantondev.github.io/LektienPlayer/Guide-de.html)** · **[Fehler melden](https://github.com/popovantondev/LektienPlayer/issues/new)**
 
-**Requirements and limitations:** Source only; no ready-to-install package. macOS 15+, Apple Silicon, Xcode 16.4+ / Swift 6.1. Full functionality needs a separate Runtime, Codex CLI signed in to ChatGPT, and Python/Torch/Silero Kseniya. Installation on a clean Mac is not yet verified.
+**Voraussetzungen und Grenzen:** Nur Quellcode, kein fertiges Installationspaket. macOS 15+, Apple Silicon, Xcode 16.4+ / Swift 6.1. Für alle Funktionen sind ein separates Runtime-Paket, Codex CLI mit ChatGPT-Anmeldung sowie Python/Torch/Silero Kseniya erforderlich. Die Installation auf einem frisch eingerichteten Mac ist noch nicht geprüft.
 
-**First steps:** Read the guide and BUILD.en.md. Compile using swift build; a complete .app needs prepared Runtime components. Open a video, choose subtitles or a German audio track, then start translation.
+**Erste Schritte:** Zuerst Anleitung und BUILD.de.md lesen. Quellcode mit swift build kompilieren; eine vollständige .app benötigt vorbereitete Runtime-Komponenten. Video öffnen, Untertitel oder eine deutsche Tonspur wählen und Übersetzung starten.
 <!-- public-release:end -->
 
-[RU](README.ru.md) · [DE](README.de.md) · [EN](README.md)
+[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
 
-No binary release or installer is published. The repository contains the latest selected recognition improvements; it does not include private development history or machine-specific runtime files.
+„Lektien“ ist der Projektname und erinnert an das deutsche Wort „Lektion“. Repository, Paket- und Ordnernamen behalten diese Schreibweise.
 
-## What it does
+Es gibt weder ein veröffentlichtes Installationspaket noch ein Binär-Release. Das Repository enthält die ausgewählten aktuellen Erkennungsverbesserungen; private Entwicklungshistorie und rechnergebundene Laufzeitdateien sind ausgeschlossen.
 
-- Local MP4/M4V/MKV playback, embedded audio and text subtitle selection, adjacent SRT discovery.
-- German speech recognition in sections, translation with saved text caches, and local Russian Silero Kseniya synthesis.
-- Separate voice volume, original-audio ducking, subtitle styling and three control-panel layouts.
-- Telegram byte-range streaming and browser viewing over the same home network.
-- M4A/SRT export and MP4/MKV with separate Russian and German tracks; video copied without re-encoding when supported.
+## Funktionen
 
-## Current limitations
+- Lokale MP4/M4V/MKV-Wiedergabe, Auswahl eingebetteter Ton- und Textuntertitelspuren sowie Erkennung benachbarter SRT-Dateien.
+- Abschnittsweise Erkennung deutscher Sprache, Übersetzung mit Textcache und lokale russische Silero-Kseniya-Synthese.
+- Separate Lautstärke der Vertonung, Absenkung des Originaltons, Untertitelgestaltung und drei Bedienleisten-Modi.
+- Telegram-Streaming über Byte-Bereiche und Browserwiedergabe im selben Heimnetz.
+- M4A/SRT-Export und MP4/MKV mit separaten russischen und deutschen Spuren; Videokopie ohne Neukodierung bei kompatiblem Format.
 
-- Current processing direction is German → Russian; interface languages are DE/EN/RU. Other voices and translation directions are planned.
-- The browser waits for a 200-second speech reserve at startup or after a distant seek; near the end it uses the remaining duration. Manual pause keeps preparing ahead.
-- One remote viewer/preparation session; long real-device and weak-Wi-Fi tests remain necessary. Safari HTTPS-only mode may block the local HTTP address.
-- OCR, screen capture, live Zoom/Teams translation and a Windows-native application are not implemented.
-- Pronunciation and recognition can contain errors. No accuracy, medical interpretation or seamless playback guarantee is made.
+## Aktuelle Grenzen
 
-## Data and privacy
+- Aktuell wird Deutsch → Russisch verarbeitet; die Oberfläche bietet DE/EN/RU. Weitere Stimmen und Übersetzungsrichtungen sind geplant.
+- Der Browser wartet beim Start und nach einem weiten Sprung auf 200 Sekunden Sprachpuffer; am Ende zählt die verbleibende Dauer. Während einer manuellen Pause wird weiter vorbereitet.
+- Eine entfernte Wiedergabe-/Vorbereitungssitzung; lange Tests auf echten Geräten und bei schwachem WLAN stehen noch aus. Safaris HTTPS-only-Modus kann lokale HTTP-Adressen blockieren.
+- OCR, Bildschirmaufnahme, Live-Übersetzung von Zoom/Teams und eine native Windows-App sind nicht implementiert.
+- Erkennung und Aussprache können Fehler enthalten. Genauigkeit und lückenlose Wiedergabe auf beliebigen Geräten werden nicht garantiert.
 
-Speech recognition and synthesis run locally. Translation sends prepared subtitle text to the signed-in service. Telegram requests use your own authorized session. Credentials are stored separately on the Mac. Source recordings are preserved; cache data is stored in .lektien. Only share the chosen library on a trusted home network; do not forward its port to the Internet.
+## Daten und Datenschutz
 
-[Build and requirements](docs/BUILD.en.md) · [Architecture](docs/ARCHITECTURE.en.md) · [Third-party notices](docs/DEPENDENCIES.en.md)
+Erkennung und Synthese laufen lokal. Für die Übersetzung wird vorbereiteter Untertiteltext an den angemeldeten Dienst übermittelt. Telegram verwendet die eigene autorisierte Sitzung. Zugangsdaten verbleiben separat auf dem Mac. Quelldateien bleiben erhalten; der Cache liegt in .lektien. Die ausgewählte Bibliothek nur im vertrauenswürdigen Heimnetz freigeben und den Port nicht ins Internet weiterleiten.
 
-No project license has been assigned. Public source availability does not itself grant permission to redistribute or relicense it. Third-party components retain their own terms.
+[Build und Voraussetzungen](docs/BUILD.de.md) · [Architektur](docs/ARCHITECTURE.de.md) · [Drittkomponenten](docs/DEPENDENCIES.de.md)
+
+Rechte und Nutzung: [RIGHTS.de.md](RIGHTS.de.md). Der Quellcode ist zur Ansicht öffentlich; eine Open-Source-Lizenz wird nicht erteilt. Für Drittkomponenten gelten deren eigene Bedingungen ([THIRD_PARTY.md](THIRD_PARTY.md)).

@@ -1,4 +1,4 @@
-# Lektien Player · Nur Quellcode development
+# Lektien Player · Nur Quellcode · in Entwicklung
 
 ## Änderungen
 

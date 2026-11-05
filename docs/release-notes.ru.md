@@ -1,4 +1,4 @@
-# Lektien Player · Только исходники development
+# Lektien Player · Только исходники · в разработке
 
 ## Изменения
 

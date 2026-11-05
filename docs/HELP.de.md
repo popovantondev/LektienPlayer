@@ -15,7 +15,7 @@ ChatGPT zeigt das verbleibende Kontingent des gesamten Kontos. Fertige Übersetz
 
 Ohne SRT sucht **Übersetzen** zuerst eingebetteten Text, dann bietet es eine deutsche Tonspur an. **Mehr → Untertitel aus Video** erlaubt die manuelle Auswahl. Die Erkennung läuft auf dem Mac in 30-Sekunden-Abschnitten; violette Bereiche zeigen den Vorrat. Ohne Übersetzungs-Häkchen entsteht nur deutscher Text ohne ChatGPT-Anfragen. Die vollständige `.de.srt` wird nach allen Abschnitten neben dem Video gespeichert. Cache und Wiedergabeposition bleiben in `.lektien`.
 
-Wähle für Telegram einen Kanal und **Ansehen**. Das Video startet über Byte-Bereiche. Ohne externes SRT bietet **Übersetzen** eine deutsche Tonspur an und erkennt sie in 30-Sekunden-Abschnitten, ohne die vollständige Datei abzuwarten. Springen priorisiert die neue Stelle. Bereiche und fertige Abschnitte werden gespeichert; ein anderes Video stoppt die alte Vorbereitung. Nur erkannter Text geht an die Übersetzung. OCR ist ausgeschlossen.
+Wählen Sie für Telegram einen Kanal und **Ansehen**. Das Video startet über Byte-Bereiche. Ohne externes SRT bietet **Übersetzen** eine deutsche Tonspur an und erkennt sie in 30-Sekunden-Abschnitten, ohne die vollständige Datei abzuwarten. Springen priorisiert die neue Stelle. Bereiche und fertige Abschnitte werden gespeichert; ein anderes Video stoppt die alte Vorbereitung. Nur erkannter Text geht an die Übersetzung. OCR ist ausgeschlossen.
 
 
 ### Farben der Zeitleiste
@@ -57,7 +57,7 @@ Text und Zeitmarken der Untertitel bleiben unverändert. Regeln liegen in
 
 Die russische Kseniya-Tonspur steht zuerst und ist standardmäßig aktiviert; der deutsche Originalton bleibt separat auswählbar. Russische Untertitel stehen ebenfalls zuerst und sind aktiviert, deutsche Untertitel bleiben separat und deaktiviert. Die Standardtonspur lässt sich im Sicherungsdialog ändern.
 
-**Mehr → Video mit Vertonung sichern…** bietet MP4/MKV, ursprüngliche Tonspuren, Standardtonspur und RU/DE-Untertitel zur Auswahl. Danach wählst du einen Ordner. Kseniya bleibt eine separate umschaltbare Tonspur; Mischpultlautstärke und Absenkung des Originals werden nicht in die Datei eingebrannt.
+**Mehr → Video mit Vertonung sichern…** bietet MP4/MKV, ursprüngliche Tonspuren, Standardtonspur und RU/DE-Untertitel zur Auswahl. Danach wählen Sie einen Ordner. Kseniya bleibt eine separate umschaltbare Tonspur; Mischpultlautstärke und Absenkung des Originals werden nicht in die Datei eingebrannt.
 
 Der neue Ordner enthält `video.mp4` oder `video.mkv` sowie separate M4A/SRT-Dateien. Das Bild wird ohne Qualitätsverlust kopiert; mit MP4 inkompatibler Originalton wird in AAC umgewandelt. Wenn der Videocodec nicht zu MP4 passt, steht MKV zur Verfügung. Untertitel bleiben abschaltbar und werden nicht ins Bild eingebrannt. Die Quelldatei bleibt erhalten; bei Namensgleichheit erhält der neue Ordner eine Nummer. Für die gespeicherte MKV-Datei ist ein Player erforderlich, der ihre Codecs unterstützt.
 

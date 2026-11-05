@@ -12,8 +12,11 @@ LABELS={
 START='<!-- public-release:start -->'
 END='<!-- public-release:end -->'
 LANGS=('de','en','ru')
+DEVELOPMENT={'ru':'в разработке','de':'in Entwicklung','en':'in development'}
 def status(d,l):
-    return LABELS[l][{'release':'release','preview':'preview','source':'source_status'}[d['status']]]+' '+d['version']
+    label=LABELS[l][{'release':'release','preview':'preview','source':'source_status'}[d['status']]]
+    if d['version']=='development':return label+' · '+DEVELOPMENT[l]
+    return label+' '+d['version']
 def actions(d,l,websites=None):
     t=LABELS[l]
     result=[(t['download'] if d['release_url'] else t['source'],d['release_url'] or d['source_url'])]

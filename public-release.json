@@ -21,13 +21,13 @@
   "feedback_url": "https://github.com/popovantondev/LektienPlayer/issues/new",
   "readmes": {
     "en": [
-      "README.md"
+      "README.en.md"
     ],
     "ru": [
       "README.ru.md"
     ],
     "de": [
-      "README.de.md"
+      "README.md"
     ]
   },
   "guides": {
@@ -41,7 +41,7 @@
       "guide": "https://popovantondev.github.io/LektienPlayer/Guide-ru.html"
     },
     "de": {
-      "website": "https://popovantondev.github.io/LektienPlayer/index-de.html",
+      "website": "https://popovantondev.github.io/LektienPlayer/index.html",
       "guide": "https://popovantondev.github.io/LektienPlayer/Guide-de.html"
     },
     "en": {
