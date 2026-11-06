@@ -12,6 +12,8 @@
 .ppk-text-block code,.ppk-guide code{padding:1px 5px;border-radius:5px;background:var(--ppk-tint);font-family:var(--ppk-mono);font-size:.92em;overflow-wrap:anywhere}
 .ppk-guide{max-width:900px;padding-bottom:40px}
 .ppk-guide h1{font-size:clamp(28px,5vw,40px);line-height:1.15}
+.ppk-guide .guide-home{margin:24px 0 0}
+.ppk-guide .guide-home+.hero{margin-top:18px}
 .ppk-guide .hero{display:flex;align-items:center;gap:24px;margin:26px 0}
 .ppk-guide .hero img{width:96px;height:96px;object-fit:contain;flex:0 0 auto}
 .ppk-guide .badge{margin:0 0 6px;color:var(--ppk-muted);font-size:14px}
