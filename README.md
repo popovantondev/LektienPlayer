@@ -1,6 +1,10 @@
+<div align="center">
+  <img src="icon.png" width="128" alt="Lektien Player Symbol">
+</div>
+
 # Lektien Player
 
-[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
+[Русский](README.ru.md) · **Deutsch** · [English](README.en.md)
 
 <!-- public-release:start -->
 Vorlesungsplayer für den Mac: lokale Erkennung deutscher Sprache, Übersetzung und russische Kseniya-Vertonung in Abschnitten. Telegram und Wiedergabe im Heimnetz.
@@ -13,6 +17,8 @@ Vorlesungsplayer für den Mac: lokale Erkennung deutscher Sprache, Übersetzung 
 
 **Erste Schritte:** Zuerst Anleitung und BUILD.de.md lesen. Quellcode mit swift build kompilieren; eine vollständige .app benötigt vorbereitete Runtime-Komponenten. Video öffnen, Untertitel oder eine deutsche Tonspur wählen und Übersetzung starten.
 <!-- public-release:end -->
+
+
 
 „Lektien“ ist der Projektname und erinnert an das deutsche Wort „Lektion“. Repository, Paket- und Ordnernamen behalten diese Schreibweise.
 
@@ -39,5 +45,7 @@ Es gibt weder ein veröffentlichtes Installationspaket noch ein Binär-Release. 
 Erkennung und Synthese laufen lokal. Für die Übersetzung wird vorbereiteter Untertiteltext an den angemeldeten Dienst übermittelt. Telegram verwendet die eigene autorisierte Sitzung. Zugangsdaten verbleiben separat auf dem Mac. Quelldateien bleiben erhalten; der Cache liegt in .lektien. Die ausgewählte Bibliothek nur im vertrauenswürdigen Heimnetz freigeben und den Port nicht ins Internet weiterleiten.
 
 [Build und Voraussetzungen](docs/BUILD.de.md) · [Architektur](docs/ARCHITECTURE.de.md) · [Drittkomponenten](docs/DEPENDENCIES.de.md)
+
+## Rechte und Nutzung
 
 Rechte und Nutzung: [RIGHTS.de.md](RIGHTS.de.md). Der Quellcode ist zur Ansicht öffentlich; eine Open-Source-Lizenz wird nicht erteilt. Für Drittkomponenten gelten deren eigene Bedingungen ([THIRD_PARTY.md](THIRD_PARTY.md)).

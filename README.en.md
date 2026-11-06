@@ -1,6 +1,10 @@
+<div align="center">
+  <img src="icon.png" width="128" alt="Lektien Player icon">
+</div>
+
 # Lektien Player
 
-[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
+[Русский](README.ru.md) · [Deutsch](README.md) · **English**
 
 <!-- public-release:start -->
 Lecture player for Mac: local German speech recognition, translation and Russian Kseniya voice-over in sections. Telegram streaming and home-network viewing.
@@ -13,6 +17,8 @@ Lecture player for Mac: local German speech recognition, translation and Russian
 
 **First steps:** Read the guide and BUILD.en.md. Compile using swift build; a complete .app needs prepared Runtime components. Open a video, choose subtitles or a German audio track, then start translation.
 <!-- public-release:end -->
+
+
 
 “Lektien” is the project’s name and echoes the German word “Lektion” (lesson). The repository, package and folder names keep this spelling.
 
@@ -39,5 +45,7 @@ No binary release or installer is published. The repository contains the latest 
 Speech recognition and synthesis run locally. Translation sends prepared subtitle text to the signed-in service. Telegram requests use your own authorized session. Credentials are stored separately on the Mac. Source recordings are preserved; cache data is stored in .lektien. Only share the chosen library on a trusted home network; do not forward its port to the Internet.
 
 [Build and requirements](docs/BUILD.en.md) · [Architecture](docs/ARCHITECTURE.en.md) · [Third-party notices](docs/DEPENDENCIES.en.md)
+
+## Rights and use
 
 Rights and use: [RIGHTS.md](RIGHTS.md). The source code is public for viewing; no open-source license is granted. Third-party components keep their own terms ([THIRD_PARTY.md](THIRD_PARTY.md)).
