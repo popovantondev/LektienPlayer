@@ -1,5 +1,7 @@
 # Lektien Player
 
+[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
+
 <!-- public-release:start -->
 Lecture player for Mac: local German speech recognition, translation and Russian Kseniya voice-over in sections. Telegram streaming and home-network viewing.
 
@@ -11,8 +13,6 @@ Lecture player for Mac: local German speech recognition, translation and Russian
 
 **First steps:** Read the guide and BUILD.en.md. Compile using swift build; a complete .app needs prepared Runtime components. Open a video, choose subtitles or a German audio track, then start translation.
 <!-- public-release:end -->
-
-[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
 
 “Lektien” is the project’s name and echoes the German word “Lektion” (lesson). The repository, package and folder names keep this spelling.
 

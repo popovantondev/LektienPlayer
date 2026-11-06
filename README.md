@@ -1,5 +1,7 @@
 # Lektien Player
 
+[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
+
 <!-- public-release:start -->
 Vorlesungsplayer für den Mac: lokale Erkennung deutscher Sprache, Übersetzung und russische Kseniya-Vertonung in Abschnitten. Telegram und Wiedergabe im Heimnetz.
 
@@ -11,8 +13,6 @@ Vorlesungsplayer für den Mac: lokale Erkennung deutscher Sprache, Übersetzung 
 
 **Erste Schritte:** Zuerst Anleitung und BUILD.de.md lesen. Quellcode mit swift build kompilieren; eine vollständige .app benötigt vorbereitete Runtime-Komponenten. Video öffnen, Untertitel oder eine deutsche Tonspur wählen und Übersetzung starten.
 <!-- public-release:end -->
-
-[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
 
 „Lektien“ ist der Projektname und erinnert an das deutsche Wort „Lektion“. Repository, Paket- und Ordnernamen behalten diese Schreibweise.
 
