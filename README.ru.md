@@ -1,10 +1,23 @@
-<div align="center">
-  <img src="icon.png" width="128" alt="Значок Lektien Player">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/LektienPlayer/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/header-ru-dark.0712b896.svg"><img src="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/header-ru-light.80cdd7f5.svg" width="880" height="188" alt="Lektien Player — Плеер лекций для Mac: распознавание, перевод и озвучка. macOS 15+ · Apple Silicon, Только исходники"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # Lektien Player
 
 **Русский** · [Deutsch](README.md) · [English](README.en.md)
+
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/LektienPlayer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/btn-source-ru-dark.45bae1df.svg"><img src="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/btn-source-ru-light.0e2e3fc8.svg" width="146" height="36" alt="Исходники"></picture></a>
+<a href="https://popovantondev.github.io/LektienPlayer/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/btn-website-ru-dark.1c112626.svg"><img src="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/btn-website-ru-light.d0a4ce11.svg" width="92" height="36" alt="Сайт"></picture></a>
+<a href="https://popovantondev.github.io/LektienPlayer/Guide-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/btn-guide-ru-dark.0cab15fc.svg"><img src="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/btn-guide-ru-light.270e40fb.svg" width="161" height="36" alt="Руководство"></picture></a>
+<a href="https://github.com/popovantondev/LektienPlayer/issues/new"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/btn-bug-ru-dark.37017457.svg"><img src="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/btn-bug-ru-light.db5ad122.svg" width="234" height="36" alt="Сообщить об ошибке"></picture></a>
+</p>
+
+<p><a href="https://popovantondev.github.io/LektienPlayer/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/preview-ru-dark.f0a696bd.webp"><img src="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/preview-ru-light.087254fd.webp" width="880" height="516" alt="Интерфейс программы Lektien Player"></picture></a></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/divider-dark.b8314084.svg"><img src="https://raw.githubusercontent.com/popovantondev/LektienPlayer/main/docs/readme/divider-light.d9448b6f.svg" width="880" height="6" alt="Разделитель"></picture>
+<!-- ppk-readme:body:end -->
 
 <!-- public-release:start -->
 Плеер лекций для Mac: локальное распознавание немецкой речи, перевод и русская озвучка Kseniya по частям. Telegram и просмотр в домашней сети.
@@ -17,8 +30,6 @@
 
 **Первые шаги:** Прочитайте руководство и BUILD.ru.md. Соберите исходники через swift build; полная .app требует подготовленных компонентов Runtime. Откройте видео, выберите субтитры или немецкую звуковую дорожку и запустите перевод.
 <!-- public-release:end -->
-
-
 
 «Lektien» — название проекта; оно перекликается с немецким словом «Lektion» (урок, лекция). Репозиторий, имена пакета и папок сохраняют это написание.
 
